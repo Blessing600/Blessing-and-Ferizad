@@ -5,55 +5,72 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Build a Survey Form</title>
+    <link rel="stylesheet" href="styles.css"> 
 </head>
 <body>
    
     <h1 id="title"> Build a Survey Form</h1>
+    <br>
     <p id="description"> we are software developers</p>
+    <br>
     <form id="Survey-form">
-        
+        <br>
         <label id="name-label">Nama</label>
         <input type="name"  name = "Name" id="name" placeholder="Enter name...">
+        <br>
         <label id="email-label">Email</label>
         
         <input type="email" name = "Email" id="email" placeholder="Enter email...">
+        <br>
         <label id="number-label">number</label>
         <input type="number" min="1" max="100" number = "Age" id="number" placeholder="Enter number...">
+        <br>
         
         <select id="dropdown">
           <option value="Challenages">Challenages</option>
           <option value="Projects">Projects</option>
         </select>
-
+        <br>
         <label>Would you recommend freeCodeCamp to a friend?</label>
+        <br>
        <input type="radio" name="Definitely" value="Definitely">
        <label>Definitely</label>
+       <br>
        <input type="radio" name="Maybe" value="Maybe">
        <label>Maybe</label>
+       <br>
 
        <label>What would you like to see improved? (Check all that apply)</label>
+       <br>
        <input type="checkbox" value="Frint-end Project">
        <label>Frint-end Project</label>
+       <br>
        <input type="checkbox" value="Back-end Project">
        <label>Back-end Project</label>
+       <br>
        <input type="checkbox" value="Data Visualization">
        <label>Data Visualization</label>
+       <br>
        <input type="checkbox" value="Challenges">
        <label>Challenges</label>
+       <br>
        <input type="checkbox" value="Open Source community">
        <label>Open Source community</label>
+       <br>
        <input type="checkbox" value="Gitter help rooms">
        <label>Gitter help rooms</label>
-       <input type="checkbox"
-       value="Videos">
+       <br>
+       <input type="checkbox"value="Videos">
        <label>Videos</label>
+       <br>
        <input type="checkbox" value="City Meetups">
        <label>City Meetups</label>
-
+       <br>
        <p><label>Any comments or suggestions?</label></p>
        <textarea> Enter your comment here...</textarea>
-
+       <br>
        <button id="submit">Submit</button>
+       <br>
     </form>
 
     
