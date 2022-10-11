@@ -1,0 +1,15 @@
+head, main {
+    font-family: sans-serif;
+    }
+    
+    body {
+    background-color: aqua;
+    }
+    
+    h1, p {
+    text-align: center;
+    }
+    label {
+        background-color: black;
+        border-color: blue;
+    }
